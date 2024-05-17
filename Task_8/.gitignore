@@ -1,0 +1,4 @@
+.idea
+/gson/*
+!gson/pom.xml
+!gson/README.md

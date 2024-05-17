@@ -1,0 +1,247 @@
+Classfile jar:file:///E:/NSUCourses/JavaOptimization/Task_6/proguard/keep-classes.jar!/task6/Main.class
+  Last modified 26 апр. 2024 г.; size 1296 bytes
+  SHA-256 checksum 68f0e68408d970b9b1e934ee027848ca9eabc81440c1f9f09b83ffb66df484d6
+  Compiled from "Main.java"
+public class task6.Main
+  minor version: 0
+  major version: 61
+  flags: (0x0021) ACC_PUBLIC, ACC_SUPER
+  this_class: #10                         // task6/Main
+  super_class: #4                         // java/lang/Object
+  interfaces: 0, fields: 0, methods: 2, attributes: 1
+Constant pool:
+   #1 = Class              #60            // "[Ljava/lang/String;"
+   #2 = Class              #65            // java/io/PrintStream
+   #3 = Class              #66            // java/lang/Integer
+   #4 = Class              #67            // java/lang/Object
+   #5 = Class              #68            // java/lang/System
+   #6 = Class              #69            // java/util/ArrayList
+   #7 = Class              #70            // java/util/List
+   #8 = Class              #71            // java/util/Random
+   #9 = Class              #78            // task6/Bean
+  #10 = Class              #79            // task6/Main
+  #11 = Class              #80            // task6/empty/Empty1
+  #12 = Class              #81            // task6/empty/Empty2
+  #13 = Class              #82            // task6/empty/Empty3
+  #14 = Fieldref           #5.#38         // java/lang/System.out:Ljava/io/PrintStream;
+  #15 = Fieldref           #9.#35         // task6/Bean.id:Ljava/lang/Integer;
+  #16 = Methodref          #2.#39         // java/io/PrintStream.println:(Ljava/lang/Object;)V
+  #17 = Methodref          #3.#36         // java/lang/Integer.intValue:()I
+  #18 = Methodref          #3.#42         // java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+  #19 = Methodref          #4.#31         // java/lang/Object."<init>":()V
+  #20 = Methodref          #6.#31         // java/util/ArrayList."<init>":()V
+  #21 = Methodref          #8.#31         // java/util/Random."<init>":()V
+  #22 = Methodref          #8.#37         // java/util/Random.nextInt:()I
+  #23 = Methodref          #9.#32         // task6/Bean."<init>":(Ljava/lang/Integer;)V
+  #24 = Methodref          #11.#31        // task6/empty/Empty1."<init>":()V
+  #25 = Methodref          #12.#31        // task6/empty/Empty2."<init>":()V
+  #26 = Methodref          #13.#31        // task6/empty/Empty3."<init>":()V
+  #27 = InterfaceMethodref #7.#33         // java/util/List.add:(Ljava/lang/Object;)Z
+  #28 = InterfaceMethodref #7.#34         // java/util/List.get:(I)Ljava/lang/Object;
+  #29 = InterfaceMethodref #7.#40         // java/util/List.set:(ILjava/lang/Object;)Ljava/lang/Object;
+  #30 = InterfaceMethodref #7.#41         // java/util/List.size:()I
+  #31 = NameAndType        #52:#44        // "<init>":()V
+  #32 = NameAndType        #52:#48        // "<init>":(Ljava/lang/Integer;)V
+  #33 = NameAndType        #61:#50        // add:(Ljava/lang/Object;)Z
+  #34 = NameAndType        #62:#46        // get:(I)Ljava/lang/Object;
+  #35 = NameAndType        #63:#56        // id:Ljava/lang/Integer;
+  #36 = NameAndType        #64:#43        // intValue:()I
+  #37 = NameAndType        #73:#43        // nextInt:()I
+  #38 = NameAndType        #74:#55        // out:Ljava/io/PrintStream;
+  #39 = NameAndType        #75:#49        // println:(Ljava/lang/Object;)V
+  #40 = NameAndType        #76:#47        // set:(ILjava/lang/Object;)Ljava/lang/Object;
+  #41 = NameAndType        #77:#43        // size:()I
+  #42 = NameAndType        #83:#45        // valueOf:(I)Ljava/lang/Integer;
+  #43 = Utf8               ()I
+  #44 = Utf8               ()V
+  #45 = Utf8               (I)Ljava/lang/Integer;
+  #46 = Utf8               (I)Ljava/lang/Object;
+  #47 = Utf8               (ILjava/lang/Object;)Ljava/lang/Object;
+  #48 = Utf8               (Ljava/lang/Integer;)V
+  #49 = Utf8               (Ljava/lang/Object;)V
+  #50 = Utf8               (Ljava/lang/Object;)Z
+  #51 = Utf8               ([Ljava/lang/String;)V
+  #52 = Utf8               <init>
+  #53 = Utf8               Code
+  #54 = Utf8               LineNumberTable
+  #55 = Utf8               Ljava/io/PrintStream;
+  #56 = Utf8               Ljava/lang/Integer;
+  #57 = Utf8               Main.java
+  #58 = Utf8               SourceFile
+  #59 = Utf8               StackMapTable
+  #60 = Utf8               [Ljava/lang/String;
+  #61 = Utf8               add
+  #62 = Utf8               get
+  #63 = Utf8               id
+  #64 = Utf8               intValue
+  #65 = Utf8               java/io/PrintStream
+  #66 = Utf8               java/lang/Integer
+  #67 = Utf8               java/lang/Object
+  #68 = Utf8               java/lang/System
+  #69 = Utf8               java/util/ArrayList
+  #70 = Utf8               java/util/List
+  #71 = Utf8               java/util/Random
+  #72 = Utf8               main
+  #73 = Utf8               nextInt
+  #74 = Utf8               out
+  #75 = Utf8               println
+  #76 = Utf8               set
+  #77 = Utf8               size
+  #78 = Utf8               task6/Bean
+  #79 = Utf8               task6/Main
+  #80 = Utf8               task6/empty/Empty1
+  #81 = Utf8               task6/empty/Empty2
+  #82 = Utf8               task6/empty/Empty3
+  #83 = Utf8               valueOf
+{
+  public task6.Main();
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #19                 // Method java/lang/Object."<init>":()V
+         4: return
+      LineNumberTable:
+        line 12: 0
+
+  public static void main(java.lang.String[]);
+    descriptor: ([Ljava/lang/String;)V
+    flags: (0x0009) ACC_PUBLIC, ACC_STATIC
+    Code:
+      stack=5, locals=5, args_size=1
+         0: new           #8                  // class java/util/Random
+         3: dup
+         4: invokespecial #21                 // Method java/util/Random."<init>":()V
+         7: astore_0
+         8: new           #6                  // class java/util/ArrayList
+        11: dup
+        12: invokespecial #20                 // Method java/util/ArrayList."<init>":()V
+        15: astore_1
+        16: iconst_0
+        17: istore_2
+        18: iload_2
+        19: bipush        10
+        21: if_icmpge     54
+        24: aload_1
+        25: new           #9                  // class task6/Bean
+        28: dup
+        29: aload_0
+        30: invokevirtual #22                 // Method java/util/Random.nextInt:()I
+        33: bipush        100
+        35: irem
+        36: invokestatic  #18                 // Method java/lang/Integer.valueOf:(I)Ljava/lang/Integer;
+        39: invokespecial #23                 // Method task6/Bean."<init>":(Ljava/lang/Integer;)V
+        42: invokeinterface #27,  2           // InterfaceMethod java/util/List.add:(Ljava/lang/Object;)Z
+        47: pop
+        48: iinc          2, 1
+        51: goto          18
+        54: getstatic     #14                 // Field java/lang/System.out:Ljava/io/PrintStream;
+        57: aload_1
+        58: invokevirtual #16                 // Method java/io/PrintStream.println:(Ljava/lang/Object;)V
+        61: aload_1
+        62: astore_0
+        63: iconst_0
+        64: istore_2
+        65: iload_2
+        66: aload_0
+        67: invokeinterface #30,  1           // InterfaceMethod java/util/List.size:()I
+        72: if_icmpge     174
+        75: iload_2
+        76: istore_3
+        77: iload_3
+        78: aload_0
+        79: invokeinterface #30,  1           // InterfaceMethod java/util/List.size:()I
+        84: if_icmpge     168
+        87: aload_0
+        88: iload_2
+        89: invokeinterface #28,  2           // InterfaceMethod java/util/List.get:(I)Ljava/lang/Object;
+        94: checkcast     #9                  // class task6/Bean
+        97: getfield      #15                 // Field task6/Bean.id:Ljava/lang/Integer;
+       100: invokevirtual #17                 // Method java/lang/Integer.intValue:()I
+       103: aload_0
+       104: iload_3
+       105: invokeinterface #28,  2           // InterfaceMethod java/util/List.get:(I)Ljava/lang/Object;
+       110: checkcast     #9                  // class task6/Bean
+       113: getfield      #15                 // Field task6/Bean.id:Ljava/lang/Integer;
+       116: invokevirtual #17                 // Method java/lang/Integer.intValue:()I
+       119: if_icmple     162
+       122: aload_0
+       123: iload_2
+       124: invokeinterface #28,  2           // InterfaceMethod java/util/List.get:(I)Ljava/lang/Object;
+       129: checkcast     #9                  // class task6/Bean
+       132: astore        4
+       134: aload_0
+       135: iload_2
+       136: aload_0
+       137: iload_3
+       138: invokeinterface #28,  2           // InterfaceMethod java/util/List.get:(I)Ljava/lang/Object;
+       143: checkcast     #9                  // class task6/Bean
+       146: invokeinterface #29,  3           // InterfaceMethod java/util/List.set:(ILjava/lang/Object;)Ljava/lang/Object;
+       151: pop
+       152: aload_0
+       153: iload_3
+       154: aload         4
+       156: invokeinterface #29,  3           // InterfaceMethod java/util/List.set:(ILjava/lang/Object;)Ljava/lang/Object;
+       161: pop
+       162: iinc          3, 1
+       165: goto          77
+       168: iinc          2, 1
+       171: goto          65
+       174: getstatic     #14                 // Field java/lang/System.out:Ljava/io/PrintStream;
+       177: aload_1
+       178: invokevirtual #16                 // Method java/io/PrintStream.println:(Ljava/lang/Object;)V
+       181: new           #11                 // class task6/empty/Empty1
+       184: invokespecial #24                 // Method task6/empty/Empty1."<init>":()V
+       187: new           #12                 // class task6/empty/Empty2
+       190: invokespecial #25                 // Method task6/empty/Empty2."<init>":()V
+       193: new           #13                 // class task6/empty/Empty3
+       196: invokespecial #26                 // Method task6/empty/Empty3."<init>":()V
+       199: return
+      LineNumberTable:
+        line 14: 0
+        line 15: 8
+        line 16: 16
+        line 17: 24
+        line 16: 48
+        line 19: 54
+        line 20: 61
+        line 1007: 63
+        line 1008: 75
+        line 1009: 87
+        line 1010: 122
+        line 1011: 134
+        line 1012: 152
+        line 1008: 162
+        line 1007: 168
+        line 21: 174
+        line 23: 181
+        line 25: 187
+        line 27: 193
+        line 33: 199
+      StackMapTable: number_of_entries = 7
+        frame_type = 255 /* full_frame */
+          offset_delta = 18
+          locals = [ class java/util/Random, class java/util/ArrayList, int ]
+          stack = []
+        frame_type = 255 /* full_frame */
+          offset_delta = 35
+          locals = [ top, class java/util/ArrayList ]
+          stack = []
+        frame_type = 255 /* full_frame */
+          offset_delta = 10
+          locals = [ class java/util/ArrayList, class java/util/ArrayList, int ]
+          stack = []
+        frame_type = 252 /* append */
+          offset_delta = 11
+          locals = [ int ]
+        frame_type = 251 /* same_frame_extended */
+          offset_delta = 84
+        frame_type = 250 /* chop */
+          offset_delta = 5
+        frame_type = 255 /* full_frame */
+          offset_delta = 5
+          locals = [ top, class java/util/ArrayList ]
+          stack = []
+}
+SourceFile: "Main.java"

@@ -1,0 +1,6 @@
+.idea
+out
+# proguard files
+proguard-7.4.2
+
+**/*.jar
